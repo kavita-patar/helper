@@ -1,3 +1,14 @@
+#### fix: remote: Permission to kavita-patar/password-authentication.git denied to Vishal-Patar.
+##### fatal: unable to access 'https://github.com/kavita-patar/password-authentication.git/': The requested URL returned error: 403
+
+try this if vscode account sign and user change doesn't work
+
+```
+git config credential.username "kavita-patar"
+```
+
+after that it will prompt to browser login.
+
 ## Last Commit Author Change
 
 ref: https://stackoverflow.com/questions/3042437/how-can-i-change-the-commit-author-for-a-single-commit
